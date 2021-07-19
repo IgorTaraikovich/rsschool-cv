@@ -4,7 +4,7 @@
 
 **E-mail:** 1033837@gmail.com
 
-**About me:** I'm Web Designer and PPC Manager. Now i am studying frontend development.
+**About me:** Now i am studying frontend development.
 
 **My skills:**  HTML, CSS, JavaScript.
 
