@@ -9,22 +9,31 @@
     <title>Curriculum vitae</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <img src="assets/img/diploma.png" alt="My_photo">
         <div>
         <h1>Taraikovich Igor</h1>
-        <p>Web-Designer & Front-End Developer</p>
+        <h3>Web-Designer & Front-End Developer</h3>
     </div>
+    
     </header>
+    <img class="burger-menu" src="assets/img/bm.png" alt="">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
     <aside>
         <section>
-            <h2><i class="far fa-user"></i> About me</h2>
-            <p>
+            <h2><i class="far fa-user"></i>About me</h2>
+            <article>
                 I am a beginner web designer and front-end developer. I love learning and learning new things.
-            </p>
+            </article>
         </section>
         <section>
-        <h2><i class="far fa-id-card"></i> Contacts:</h2>
+        <h2 id="contacts"><i class="far fa-id-card"></i> Contacts:</h2>
         <ul>
             <li>Phone: +375 29 103-38-37</li>
             <li>Email: 10338337@gmail.com</li>
@@ -34,7 +43,7 @@
     </aside>
     <main>
         <section>
-            <h2><i class="far fa-star"></i> My skills</h2>
+            <h2 id="skills"><i class="far fa-star"></i> My skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -65,5 +74,6 @@
         <a href="https://rs.school/js/">Курс «JavaScript/Front-end»</a>
         <i class="far fa-copyright"></i> 2021
     </footer>
+    <script src="assets/main.js"></script>
 </body>
 </html>
